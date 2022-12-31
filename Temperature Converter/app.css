@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto+Slab',sans-serif;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+body {
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    place-items: center;
+    background-color: #f5f5f5;
+    /* background-image:url("temp.jpg") ; */
+}
+
+form {
+    background-color: white;
+    padding: 100px;
+    shape-outside: margin-box;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px  rgb(155, 51, 19);
+    -moz-box-shadow: 0 10px 6px -6px  rgb(155, 51, 19);
+    box-shadow: 0 10px 6px -6px rgb(35, 35, 180);
+    border-color: black;
+    border-width: 100px;
+    border-radius: 40px;
+}
+
+#temp-Calculator label
+{
+  font-size: 35px;
+}
+
+#temp
+{
+    border: none;
+    padding: 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px rgb(35, 35, 180);
+    font-family:Arial, Helvetica, sans-serif;
+}
+#temp_diff
+{
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 30px;
+    vertical-align: top;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px rgb(35, 35, 180);
+}
+
+[type="submit"]
+{
+    cursor: pointer;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(35, 35, 180);
+    color: white;
+    box-shadow: 0 10px 6px -6px rgb(62, 48, 48);
+    padding: 10px 10px;
+}
+[type="submit"]:hover{
+    transform: scale(1.1);
+    transition-duration: .2s;
+}
+
+#resultContainer
+{
+  font-size: 30px;
+}
