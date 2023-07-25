@@ -1,7 +1,6 @@
 const calculateTemp = () => {
 
     const numberTemp = document.getElementById('temp').value;
-    //console.log(numberTemp);
 
     const tempselected = document.getElementById('temp_diff');
     const valueTemp = temp_diff.options[tempselected.selectedIndex].value;
