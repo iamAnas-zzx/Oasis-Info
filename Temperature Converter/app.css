@@ -49,7 +49,7 @@ form {
     border: 1px solid whitesmoke;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
-    box-shadow: 0 10px 6px -6px rgb(155, 51, 19);
+    box-shadow: 0 10px 6px -8px #830000;
     font-family:Arial, Helvetica, sans-serif;
 }
 #temp_diff
@@ -63,7 +63,7 @@ form {
     border: 1px solid whitesmoke;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
-    box-shadow: 0 10px 6px -6px rgb(155, 51, 19);
+    box-shadow: 0 10px 6px -8px #830000;
 }
 
 [type="submit"]
