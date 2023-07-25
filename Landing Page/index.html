@@ -2,218 +2,489 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,400&family=Roboto+Slab:wght@300;600&family=Roboto:wght@100&display=swap"
-    rel="stylesheet">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="app.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
 
-  <title>ExpressSolutions</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+
+    <!-- Title -->
+    <title>Express VPN</title>
 </head>
 
 <body>
-  <nav id="mainNavbar" class="navbar navbar-dark  navbar-expand-md fixed-top pt-0">
-    <a href="#" class="navbar-brand">ExpressSolutions</a>
+    <section class="header">
+        <nav>
+            <a title="/" href=""><img alt="" src="imgs/expressvpn-logo-red.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="bi bi-x-circle" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="">What Is a VPN?</a></li>
+                    <li><a href="">What We Offer</a></li>
+                    <li><a href="">Download VPN</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">My Account</a></li>
+                    <!-- <li><button>English</button></li> -->
+                    <li id="last">
+                        <div>
+                            <a href="">Get Started</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <div class="col-content">
+            <div>
+                <h1 class="heading1">The VPN that just works</h1>
+            </div>
+            <h1>Go further with the #1 trusted leader in VPN</h1>
+            <button> Get ExpressVPN <i class="bi bi-arrow-right-short"></i></button>
+            <h6>30-DAY MONEY-BACK GUARANTEE</h6>
+
+        </div>
+        <div class="img2"><img alt="" src="imgs/homepage-pingzhu-hero-figures-v2-opt__1___3_.png"></div>
+    </section>
+
+    <!-- Middle part-1 -->
+
+    <section class="middle-1">
+        <div class="row-form">
+            <div class="col-part">
+                <div class="col-content-2">
+                    <h2>The ExpressVPN Guarantee</h2>
+                    <p>Try ExpressVPN with zero commitment! If you’re not satisfied within the first 30 days, you’ll
+                        get your money back. All of it.</p>
+                </div>
+
+            </div>
+            <div class="col-part">
+                <div class="col-content-3">
+                    <img src="imgs/30-days-risk-free-calendar.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Middle part-2 -->
+
+    <section class="middle-2">
+        <div class="row-form-2">
+            <h2>What is VPN?</h2>
+            <div class="img3">
+                <img src="imgs/whatisVPN.avif" alt="">
+            </div>
+            <div class="row-form-3">
+                <div class="col-part-2">
+                    <div class="col-content-4">
+                        <p>A VPN, or virtual private network, is a secure tunnel between your device and the internet.
+                            VPNs protect you from snooping, interference, and censorship.</p>
+                        <br>
+                        <p>As you connect to a secure VPN server, your internet traffic goes through an encrypted tunnel
+                            that nobody can see into—including hackers, governments, and your internet service provider.
+                        </p>
+                        <br>
+                        <div>
+                            <h3>Try Express VPN Risk Free</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-part-2">
+                    <div class="col-content-5">
+                        <img src="imgs/what-is-vpn.avif" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-      aria-haspopup="true" aria-expanded="false">
-      Languages
-    </a>
-    <div class="dropdown-menu dropdown-menu-right bg-info border-0 pt-0" aria-labelledby="navbarDropdownMenuLink">
-      <a class="dropdown-item" href="#">English</a>
-      <a class="dropdown-item" href="#">Hindi</a>
-      <!-- <a class="dropdown-item" href="#">Something else here</a> -->
-    </div>
-  </nav>
+    <!-- Middle part-3 -->
+    <section class="middle-3">
+        <div class="row-form-4">
+            <h1>How do I get and use a VPN?</h1>
+            <div class="col-content-6">
+                <div class="block-1">
+                    <h4>Step 1</h4>
+                    <img src="imgs/get-expressvpn-now_3x.avif" alt="">
+                    <h5>Sign up for ExpressVPN</h5>
 
-  <section class="container-fluid px-0 ">
-    <div class="row">
-      <div class="col">
-        <img class="img-fluid" src="imgs/img-0.jpg" alt="">
-      </div>
-    </div>
-  </section>
+                    <p>Visit the order page and select the option that’s right for you. All of our plans are fully
+                        covered by our 30-day money-back guarantee.</p>
+                </div>
+                <div class="block-1">
+                    <h4>Step 2</h4>
+                    <img src="imgs/setup.png" alt="">
+                    <h5>Download a VPN app</h5>
+                    <p>You’ll immediately be invited to download the app for the device you’re using. Getting apps for
+                        all your other devices is just as easy.</p>
+                </div>
+                <div class="block-1">
+                    <h4>Step 3</h4>
+                    <img src="imgs/us-location-globe_-_US___Latin_America_3x.avif" alt="">
+                    <h5>Connect to a VPN server location</h5>
+                    <p>Simply hit the On Button, and you’ll be instantly connected to the best location for your
+                        connection. Or pick one from our global network.</p>
+                </div>
 
-  <section class="container-fluid px-0">
-    <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1 p-5">
-        <img class="img-fluid" src="imgs/img-1.1.jpg" alt="">
-      </div>
-      <div class="col-md-6 text-center order-1 order-md-2">
-        <div class="row justify-content-center">
-          <div class="col-10 col-lg-8">
-            <h2>Secure Access, Worldwide</h2>
-            <p>
-              Connect reliably from anywhere, to anywhere.Our network of high-speed servers across 94 countries puts you
-              in control.
-            </p>
-            <button type="button" class="btn btn-primary btn-lg">Get ExpressSolutions</button>
-          </div>
+            </div>
+            <div class="col-content-7"><button>Get ExpressVPN <i class="bi bi-arrow-right-short"></i></button></div>
+
         </div>
-      </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-md-6 text-center ">
-        <div class="row justify-content-center">
-          <div class="col-10 col-lg-8">
-            <h2>One click to a safer internet</h2>
-            <p>
-              Going online doesn't have to mean being exposed. Whether you're shopping from you desk or just connecting
-              at a cafe, keep your personel information more private and secure.
-            </p>
-          </div>
+
+    </section>
+
+    <!-- Middle part-4 -->
+
+    <section class="middle-4">
+        <div class="row-form-5">
+            <h1>Why ExpressVPN?</h1>
+            <div class="col-content-8">
+                <div class="block-2">
+                    <img src="imgs/home-location.avif" alt="">
+                    <h5>Servers in 94 countries</h5>
+
+                    <p>Appear to be anywhere in the world with our global fleet of VPN servers.</p>
+                </div>
+                <div class="block-2">
+                    <img src="imgs/serious-security.avif" alt="">
+                    <h5>Best-in-class encryption</h5>
+                    <p>Your data is protected by AES-256, the standard trusted by security experts.</p>
+                </div>
+                <div class="block-2">
+                    <img src="imgs/24-7-support.avif" alt="">
+                    <h5>24-hour live chat support</h5>
+                    <p>Real humans are available 24/7 to help you with setup and troubleshooting.</p>
+                </div>
+
+            </div>
+            <div class="col-content-8">
+                <div class="block-2">
+                    <img src="imgs/trustedserver-technology.avif" alt="">
+                    <h5>TrustedServer technology</h5>
+
+                    <p>With our innovative server technology, no data is ever written to a hard drive.</p>
+                </div>
+                <div class="block-2">
+                    <img src="imgs/blazing-fast-speeds.avif" alt="">
+                    <h5>Lightning-fast speeds</h5>
+                    <p>Enjoy superior speeds anywhere. Find out why we’re named ExpressVPN.</p>
+                </div>
+                <div class="block-2">
+                    <img src="imgs/every-platform__1_.avif" alt="">
+                    <h5>Works on every platform</h5>
+                    <p>ExpressVPN has apps for iOS, Android, Mac, Windows, Linux, routers, and more.</p>
+                </div>
+
+            </div>
+
         </div>
-      </div>
-      <div class="col-md-6 p-5">
-        <img class="img-fluid " src="imgs/img-1.2.jpg" alt="">
-      </div>
-    </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-md-6 order-2 order-md-1 p-5">
-        <img class="img-fluid" src="imgs/img-4.jpg" alt="">
-      </div>
-      <div class="col-md-6 text-center order-1 order-md-2">
-        <div class="row justify-content-center">
-          <div class="col-10 col-lg-8">
-            <h2>Use ExpressSolutions on every device</h2>
-            <p>
-              Phone, tablet, computer, router - no matter where you are or what devices you're using, a single
-              ExpressSolutions subscription has got you covered.
-            </p>
-            <!-- <ion-icon name="logo-windows"></ion-icon> -->
-            <button type="button" class="btn ">Windows <ion-icon name="logo-windows"></ion-icon></button>
-            <button type="button" class="btn ">MAC <ion-icon name="logo-apple"></ion-icon> </button>
-            <button type="button" class="btn ">Android <ion-icon name="logo-android"></ion-icon></button>
-            <button type="button" class="btn ">Linux <ion-icon name="logo-tux"></ion-icon></ion-icon></button>
-            <button type="button" class="btn ">iOS</button>
-            <!-- <button type="button" class="btn ">Info</button> -->
-            <button type="button" class="btn btn-primary btn-lg my-2">Get ExpressSolutions</button>
-          </div>
+
+    </section>
+
+    <!-- Middle part-5 -->
+    <section class="middle-5">
+        <div class="row-form-6">
+
+            <div class="col-content-9">
+                <h1>Ultra-fast servers around the globe</h1>
+                <div class="flag-container">
+                    <!-- <div class="main-slider"> -->
+
+                    <div class="flag-slider-container">
+                        <!-- First Copy -->
+
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/China.jpg" alt=""></div>
+                            <div class="country-name">CHINA</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/USA.jpg" alt=""></div>
+                            <div class="country-name">USA</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Germany.jpg" alt=""></div>
+                            <div class="country-name">GERMANY</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Netherland.jpg" alt=""></div>
+                            <div class="country-name">NETHERLAND</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Italy.jpg" alt=""></div>
+                            <div class="country-name">ITALY</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/France.jpg" alt=""></div>
+                            <div class="country-name">FRANCE</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/UK.jpg" alt=""></div>
+                            <div class="country-name">UK</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Japan.jpg" alt=""></div>
+                            <div class="country-name">JAPAN</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Korea.jpg" alt=""></div>
+                            <div class="country-name">KOREA</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Russia.jpeg" alt=""></div>
+                            <div class="country-name">RUSSIA</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Spain.jpeg" alt=""></div>
+                            <div class="country-name">SPAIN</div>
+                        </div>
+
+
+                        <!-- Second Copy -->
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/China.jpg" alt=""></div>
+                            <div class="country-name">CHINA</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/USA.jpg" alt=""></div>
+                            <div class="country-name">USA</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Germany.jpg" alt=""></div>
+                            <div class="country-name">GERMANY</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Netherland.jpg" alt=""></div>
+                            <div class="country-name">NETHERLAND</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Italy.jpg" alt=""></div>
+                            <div class="country-name">ITALY</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/France.jpg" alt=""></div>
+                            <div class="country-name">FRANCE</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/UK.jpg" alt=""></div>
+                            <div class="country-name">UK</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Japan.jpg" alt=""></div>
+                            <div class="country-name">JAPAN</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Korea.jpg" alt=""></div>
+                            <div class="country-name">KOREA</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Russia.jpeg" alt=""></div>
+                            <div class="country-name">RUSSIA</div>
+                        </div>
+                        <div class="flag-card">
+                            <div class="crop-svg"><img src="imgs/country/Spain.jpeg" alt=""></div>
+                            <div class="country-name">SPAIN</div>
+                        </div>
+
+                    </div>
+                </div>
+                <button>See All 94 Countries<i class="bi bi-arrow-right-short"></i></button>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="container-fluid px-0 ">
-    <div class="row text-center justify-content-center">
-      <!-- <div class="col-2"></div> -->
-      <div class="col-md">
-        <div class="row">
-          <div class="col">
-            <img class="img-fluid" src="imgs/img-2.11.jpg" alt="">
-          </div>
+
         </div>
-        <div class="row">
-          <div class="col">
-            <h2>
-              Stronger Security Services
-            </h2>
-          </div>
+
+    </section>
+
+    <!-- Footer section -->
+
+    <section class="footer">
+        <div class="row-footer">
+            <div class="col-content-10">
+                <div class="col-b-1"></div>
+                <div class="col-b-2"></div>
+                <div class="col-b-3"></div>
+                <div class="col-b-4"></div>
+                <div id="b1" class="block-3">
+                    <h3>Download VPN</h3>
+                    <ul>
+                        <li>Mac VPN</li>
+                        <li>Windows PC VPN</li>
+                        <li>iPhone VPN (iOS)</li>
+                        <li>Android VPN</li>
+                        <li>Linux VPN</li>
+                        <li>Router VPN</li>
+                        <li>VPN Chrome Extension</li>
+                    </ul>
+                </div>
+                <div id="b2" class="block-3">
+                    <h3>Features</h3>
+                    <ul>
+                        <li>Risk-Free VPN Trial</li>
+                        <li>Reality TV VPN</li>
+                        <li>Plans ans Pricing</li>
+                    </ul>
+                </div>
+                <div id="b3" class="block-3">
+                    <h3>94 countries</h3>
+                    <ul>
+                        <li>US VPN</li>
+                        <li>UK VPN</li>
+                        <li>Canada VPN</li>
+                        <li>Australia VPN</li>
+                    </ul>
+                </div>
+                <div id="b4" class="block-3">
+                    <h3>Products</h3>
+                    <ul>
+                        <li>Aircove Router</li>
+                    </ul>
+                </div>
+                <div id="b5" class="block-3">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>What Is My IP</li>
+                        <li>DNS Leak Test</li>
+                        <li>WebRTC Leak Test</li>
+                        <li>Password Generator</li>
+                    </ul>
+                </div>
+                <div id="b6" class="block-3">
+                    <h3>About ExpressVPN</h3>
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>Terms of Service</li>
+                        <li>Trust Center</li>
+                        <li>Security Audits</li>
+                        <li>ExpressVPN Reviews</li>
+                        <li>Press</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div id="b7" class="block-3">
+                    <h3>Programs</h3>
+                    <ul>
+                        <li>Affiliates</li>
+                        <li>Influencers</li>
+                        <li>Partners</li>
+                        <li>$5,000 Scholarship</li>
+                    </ul>
+                </div>
+                <div id="b8" class="block-3">
+                    <h3>Support Center</h3>
+                    <ul>
+                        <li>VPN Setup Tutorials</li>
+                        <li>FAQ</li>
+                        <li>Contact US</li>
+                        <li>Buy VPN</li>
+                    </ul>
+                </div>
+                <div id="b9" class="block-3">
+                    <h3>Learn More</h3>
+                    <ul>
+                        <li>What Is My VPN</li>
+                        <li>Top 5 VPN Uses</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-      </div>
-      <div class="col-md">
-        <div class="row">
-          <div class="col">
-            <img class="img-fluid" src="imgs/img-6.jpg" alt="">
-          </div>
+    </section>
+    <secton class="footer--bottom">
+        <div class="row-footer-bottom">
+            <div class="col-content-11">
+                <div class="col-part-3">
+                    <p>© 2023 ExpressVPN. All rights reserved.</p>
+                </div>
+                <div class="col-part-4">
+                    <a title="/" href="#"><i class="bi bi-youtube"></i></a>
+                    <a title="/" href="#"><i class="bi bi-linkedin"></i></a>
+                    <a title="/" href="#"><i class="bi bi-twitter"></i></a>
+                    <a title="/" href="#"><i class="bi bi-facebook"></i></a>
+                    <a title="/" href="#"><i class="bi bi-instagram"></i></a>
+
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <h2>
-              Lightning-quick Connectivity
-            </h2>
-          </div>
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="row">
-          <div class="col">
-            <img class="img-fluid" src="imgs/img-7.jpg" alt="">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <h2>
-              Work seamlessly anywhere
-            </h2>
-          </div>
-        </div>
-        <!-- <div class="col-2"></div> -->
-      </div>
-  </section>
-  <div id="serLink" class="container-fluid px-0 pt-2 font-weight-bold ">
-    <div class="row">
-      <div class="col text-center text-danger ">
-        <a href="#" class="newSesion">See more Services -</a>
-      </div>
-    </div>
-  </div>
-  <div id="super" class="container-fluid pb-1 pt-5 px-0">
-    <div class="row">
-      <div class="col">
-        <h1>Super solution all over the Globe.</h1>
-      </div>
-    </div>
-  </div>
-  <section id="feat" class="container-fluid p-0">
-    <div id="gmap" class="row align-items-center text-center">
-      <div id="gmap0" class="col-md-8 ">
-        <img class="img-fluid" src="imgs/img-3.0.jpg" alt="" class="world">
-      </div>
-      <div id="gmap1" class="col-md-4 ">
-        <div class="row text-md-left ">
-          <div class="col">
-            <h1>180</h1>
-            <p>locations</p>
-          </div>
-        </div>
-        <div class="row text-md-left">
-          <div class="col">
-            <h1>93</h1>
-            <p>countries</p>
-          </div>
-        </div>
-        <div class="row text-md-left">
-          <div class="col">
-            <h1>1.4 Million</h1>
-            <p>customer</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div id="serLink1" class="container-fluid px-0 pt-2 font-weight-bold ">
-    <div class="row">
-      <div class="col text-center text-danger ">
-        <a href="#" class="newSesion">Get your plan now:</a>
-      </div>
-    </div>
-  </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </secton>
+
+    <!-- JavaScript -->
+    <script>
+
+        //NavBar Event
+        var variable = document.getElementById("nav-links");
+        function showMenu() {
+            variable.style.left = "0";
+        }
+        function closeMenu() {
+            variable.style.left = "-100%";
+        }
+
+        //Declaring variable
+
+        let screenWidth = 0;
+
+        // Function to update the screen width variable and display it
+        function updateScreenWidth() {
+            screenWidth = window.innerWidth || document.documentElement.clientWidth;
+        }
+
+        // Initial update when the page loads
+        updateScreenWidth();
+
+        // Event listener to update on window resize
+        window.addEventListener('resize', updateScreenWidth);
+        const container = document.querySelector('.col-content-10');
+        const col1 = document.querySelector('.col-b-1')
+        const col2 = document.querySelector('.col-b-2')
+        const col3 = document.querySelector('.col-b-3')
+        const col4 = document.querySelector('.col-b-4')
+        const b1 = document.querySelector('#b1');
+        const b2 = document.querySelector('#b2');
+        const b3 = document.querySelector('#b3');
+        const b4 = document.querySelector('#b4');
+        const b5 = document.querySelector('#b5');
+        const b6 = document.querySelector('#b6');
+        const b7 = document.querySelector('#b7');
+        const b8 = document.querySelector('#b8');
+        const b9 = document.querySelector('#b9');
+        if (screenWidth >= 770 && screenWidth <= 1020) {
+            col1.appendChild(b1);
+            col1.appendChild(b2);
+            col1.appendChild(b3);
+            col1.appendChild(b4);
+            col2.appendChild(b5);
+            col2.appendChild(b6);
+            col2.appendChild(b7);
+            col3.appendChild(b8);
+            col3.appendChild(b9);
+        } else if (screenWidth > 1020) {
+            col1.appendChild(b1);
+            col1.appendChild(b2);
+            col2.appendChild(b3);
+            col2.appendChild(b4);
+            col2.appendChild(b5);
+            col3.appendChild(b6);
+            col3.appendChild(b7);
+            col4.appendChild(b8);
+            col4.appendChild(b9);
+        }
+    </script>
 
 </body>
 
